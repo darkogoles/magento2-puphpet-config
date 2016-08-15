@@ -238,9 +238,9 @@ php:
             - gd
             - xsl
             - mbstring
+            - zip
         pear: {  }
-        pecl:
-            - pecl_http
+        pecl: {  }
     ini:
         display_errors: 'On'
         error_reporting: '-1'

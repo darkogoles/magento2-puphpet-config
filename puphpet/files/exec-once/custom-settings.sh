@@ -7,3 +7,5 @@ mv php.ini php.ini.old
 ln -s /etc/php/5.6/php.ini php.ini
 cd /etc/php/5.6/
 sed -i 's/;always_populate_raw_post_data = -1/always_populate_raw_post_data = -1/g' php.ini
+sudo service php5.6-fpm restart
+sudo service apache2 restart
